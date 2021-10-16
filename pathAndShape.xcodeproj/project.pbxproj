@@ -11,6 +11,8 @@
 		D153F1A327174DCF00FF4619 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D153F1A227174DCF00FF4619 /* ContentView.swift */; };
 		D153F1A527174DD000FF4619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D153F1A427174DD000FF4619 /* Assets.xcassets */; };
 		D153F1A827174DD000FF4619 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D153F1A727174DD000FF4619 /* Preview Assets.xcassets */; };
+		D1716DAF2717E9F300187D1B /* BigChungusOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1716DAE2717E9F300187D1B /* BigChungusOutline.swift */; };
+		D1716DB12717F57C00187D1B /* BigChungusStomach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1716DB02717F57C00187D1B /* BigChungusStomach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D153F1A227174DCF00FF4619 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D153F1A427174DD000FF4619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D153F1A727174DD000FF4619 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1716DAE2717E9F300187D1B /* BigChungusOutline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigChungusOutline.swift; sourceTree = "<group>"; };
+		D1716DB02717F57C00187D1B /* BigChungusStomach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigChungusStomach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D153F1A027174DCF00FF4619 /* pathAndShapeApp.swift */,
 				D153F1A227174DCF00FF4619 /* ContentView.swift */,
+				D1716DAE2717E9F300187D1B /* BigChungusOutline.swift */,
+				D1716DB02717F57C00187D1B /* BigChungusStomach.swift */,
 				D153F1A427174DD000FF4619 /* Assets.xcassets */,
 				D153F1A627174DD000FF4619 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1716DB12717F57C00187D1B /* BigChungusStomach.swift in Sources */,
+				D1716DAF2717E9F300187D1B /* BigChungusOutline.swift in Sources */,
 				D153F1A327174DCF00FF4619 /* ContentView.swift in Sources */,
 				D153F1A127174DCF00FF4619 /* pathAndShapeApp.swift in Sources */,
 			);
