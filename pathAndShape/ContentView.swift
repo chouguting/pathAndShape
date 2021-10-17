@@ -10,19 +10,30 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            Image("xp_wallpaper").resizable().scaledToFit().ignoresSafeArea()
+            PurpleMan().scaleEffect(0.3).offset(x: 180, y: -17)
+            BigChungus().scaleEffect(0.8).offset(x: -20, y: 100)
+            Text("Big Chungus").bold().font(.system(size: 60)).foregroundColor(.red).offset(x: -0, y: -270)
+        }
+    }
+}
+
+struct BigChungus: View {
+    var body: some View {
+        Group {
             Group {
                 BigChungusOutline().offset(x: 190, y: -1).fill(Color(red: 96.0/255, green: 77.0/255, blue: 83.0/255))
                 BigChungusOutline().offset(x: 190, y: -1).stroke(.black,lineWidth: 2)
-
+                
                 BigChungusHair()
-
+                
                 BigChungusStomach().offset(x: 200, y: -4).fill(Color(red: 216.0/255, green: 221.0/255, blue: 243.0/255))
                 BigChungusStomach().offset(x: 200, y: -4).stroke(.black,lineWidth: 2)
-
+                
                 BigChungusEarInner().scaledToFill()
-
+                
                 BigChungusEarInner(rotatinDegree: 10, offsetX: 27, offsetY: 0)
-
+                
             }
             
             Group {
@@ -30,27 +41,27 @@ struct ContentView: View {
                 
                 BigChungusRightEye().scaledToFill().offset(x: 0, y: 0)
                 BigChungusLeftEye().scaledToFill().offset(x: 0, y: 0).offset(x: 0, y: -1)
-
+                
                 BigChungusEyeBrows()
-
-
+                
+                
                 BigChungusMouth().scaledToFill()
-
+                
                 BigChungusChin().scaledToFill()
                 
                 BigChungusWhiskers().scaledToFill()
             }
-
             
-
+            
+            
             Group {
-            
+                
                 BigChungusLeftHand().scaledToFill().offset(x: -4, y: 0)
-
+                
                 BigChungusRightHand().scaledToFill()
-
+                
                 BigChungusLeftFoot().scaledToFill()
-
+                
                 BigChungusRightFoot().scaledToFill()
                 
                 //右手臂底下
@@ -637,3 +648,5 @@ struct BigChungusArm: View {
         }
     }
 }
+
+
