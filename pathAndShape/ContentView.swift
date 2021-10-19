@@ -13,7 +13,7 @@ struct ContentView: View {
             Image("xp_wallpaper").resizable().scaledToFit().ignoresSafeArea()
             PurpleMan().scaleEffect(0.3).offset(x: 180, y: -17)
             BigChungus().scaleEffect(0.8).offset(x: -20, y: 60)
-            Text("big Chungus").bold().font(.system(size: 50)).foregroundColor(.red).offset(x: -0, y: -270)
+            Text("Big Chungus").bold().font(.system(size: 50)).foregroundColor(.red).offset(x: -0, y: -270)
         }
     }
 }
@@ -23,8 +23,8 @@ struct BigChungus: View {
         Group {
             Group {
                 BigChungusOutline().offset(x: 190, y: -1).fill(Color(red: 96.0/255, green: 77.0/255, blue: 83.0/255))
-                //BigChungusOutline().offset(x: 190, y: -1).fill(Color(.black))
-                BigChungusOutline().offset(x: 190, y: -1).stroke(.black,lineWidth: 2)
+                
+                BigChungusOutline().offset(x: 190, y: -1).stroke(.red,style: StrokeStyle(lineWidth: 5, dash: [15,2]))
                 
                 BigChungusHair()
                 

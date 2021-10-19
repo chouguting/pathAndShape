@@ -13,6 +13,7 @@
 		D153F1A827174DD000FF4619 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D153F1A727174DD000FF4619 /* Preview Assets.xcassets */; };
 		D1716DAF2717E9F300187D1B /* BigChungusOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1716DAE2717E9F300187D1B /* BigChungusOutline.swift */; };
 		D1716DB12717F57C00187D1B /* BigChungusStomach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1716DB02717F57C00187D1B /* BigChungusStomach.swift */; };
+		D1B5A603271EF03900598CDF /* BigChungusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B5A602271EF03900598CDF /* BigChungusView.swift */; };
 		D1E1457B271C783B0050DFD7 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1457A271C783B0050DFD7 /* FriendView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		D153F1A727174DD000FF4619 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1716DAE2717E9F300187D1B /* BigChungusOutline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigChungusOutline.swift; sourceTree = "<group>"; };
 		D1716DB02717F57C00187D1B /* BigChungusStomach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigChungusStomach.swift; sourceTree = "<group>"; };
+		D1B5A602271EF03900598CDF /* BigChungusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigChungusView.swift; sourceTree = "<group>"; };
 		D1E1457A271C783B0050DFD7 /* FriendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 				D1E1457A271C783B0050DFD7 /* FriendView.swift */,
 				D153F1A027174DCF00FF4619 /* pathAndShapeApp.swift */,
 				D153F1A227174DCF00FF4619 /* ContentView.swift */,
+				D1B5A602271EF03900598CDF /* BigChungusView.swift */,
 				D1716DAE2717E9F300187D1B /* BigChungusOutline.swift */,
 				D1716DB02717F57C00187D1B /* BigChungusStomach.swift */,
 				D153F1A427174DD000FF4619 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				D153F1A327174DCF00FF4619 /* ContentView.swift in Sources */,
 				D1E1457B271C783B0050DFD7 /* FriendView.swift in Sources */,
 				D153F1A127174DCF00FF4619 /* pathAndShapeApp.swift in Sources */,
+				D1B5A603271EF03900598CDF /* BigChungusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
